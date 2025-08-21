@@ -12,7 +12,7 @@ import router from './routes/routes.js';
 dotenv.config({quiet:true});
 
 const PORT = process.env.PORT || 4040;
-const DB_URL = process.env.MONGO_DB || "mongodb+srv://vkdevstudio:P0FU3MInyGXVUAd2@portfolio.2olxkir.mongodb.net/?retryWrites=true&w=majority&appName=portfolio";
+const DB_URL = process.env.MONGO_DB;
 
 // Initialize Express
 const app = express();
